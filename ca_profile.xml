@@ -1,0 +1,11 @@
+<CommunityApplications>
+  <Profile>
+    Replace this text with a short overview of your repository and what users can expect to find.
+  </Profile>
+  <Icon>https://raw.githubusercontent.com/REPLACE_ME/REPLACE_ME/main/icon.png</Icon>
+  <WebPage>https://github.com/REPLACE_ME/REPLACE_ME</WebPage>
+  <Forum>https://forums.unraid.net/topic/REPLACE_ME</Forum>
+  <Discord>https://discord.gg/REPLACE_ME</Discord>
+  <DonateLink>https://github.com/sponsors/REPLACE_ME</DonateLink>
+  <DonateText>Support this project</DonateText>
+</CommunityApplications>

@@ -1,0 +1,16 @@
+<Container version="2">
+  <Name>Example App</Name>
+  <Repository>ghcr.io/REPLACE_ME/example-app:latest</Repository>
+  <Registry>https://ghcr.io</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/REPLACE_ME</Support>
+  <Project>https://github.com/REPLACE_ME/example-app</Project>
+  <Overview>Short summary shown in Community Apps.</Overview>
+  <Description>Longer markdown or HTML description shown in Community Apps.</Description>
+  <Category>Tools:Utilities</Category>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/REPLACE_ME/REPLACE_ME/main/templates/example-app.xml</TemplateURL>
+</Container>

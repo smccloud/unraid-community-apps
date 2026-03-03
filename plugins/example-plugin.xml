@@ -1,0 +1,8 @@
+<Plugin>
+  <Name>Example Plugin</Name>
+  <PluginURL>https://raw.githubusercontent.com/REPLACE_ME/example-plugin/main/example-plugin.plg</PluginURL>
+  <Support>https://forums.unraid.net/topic/REPLACE_ME</Support>
+  <Project>https://github.com/REPLACE_ME/example-plugin</Project>
+  <Overview>Explain what this plugin does and why users should install it.</Overview>
+  <Category>Tools:Utilities</Category>
+</Plugin>
