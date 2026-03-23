@@ -1,16 +1,17 @@
 <Container version="2">
+  <!-- Delete this file if your repository does not ship Docker apps. -->
   <Name>Example App</Name>
-  <Repository>ghcr.io/REPLACE_ME/example-app:latest</Repository>
+  <Repository>ghcr.io/YOUR_GITHUB_USERNAME/example-app:latest</Repository>
   <Registry>https://ghcr.io</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/REPLACE_ME</Support>
-  <Project>https://github.com/REPLACE_ME/example-app</Project>
+  <Support>https://forums.unraid.net/topic/YOUR_SUPPORT_TOPIC</Support>
+  <Project>https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME</Project>
   <Overview>Short summary shown in Community Apps.</Overview>
   <Description>Longer markdown or HTML description shown in Community Apps.</Description>
   <Category>Tools:Utilities</Category>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/REPLACE_ME/REPLACE_ME/main/templates/example-app.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/main/templates/example-app.xml</TemplateURL>
 </Container>

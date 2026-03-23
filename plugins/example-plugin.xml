@@ -1,8 +1,9 @@
 <Plugin>
+  <!-- Delete this file if your repository does not ship plugins. -->
   <Name>Example Plugin</Name>
-  <PluginURL>https://raw.githubusercontent.com/REPLACE_ME/example-plugin/main/example-plugin.plg</PluginURL>
-  <Support>https://forums.unraid.net/topic/REPLACE_ME</Support>
-  <Project>https://github.com/REPLACE_ME/example-plugin</Project>
+  <PluginURL>https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_PLUGIN_REPO/main/example-plugin.plg</PluginURL>
+  <Support>https://forums.unraid.net/topic/YOUR_SUPPORT_TOPIC</Support>
+  <Project>https://github.com/YOUR_GITHUB_USERNAME/YOUR_PLUGIN_REPO</Project>
   <Overview>Explain what this plugin does and why users should install it.</Overview>
   <Category>Tools:Utilities</Category>
 </Plugin>
