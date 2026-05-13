@@ -54,9 +54,4 @@
   <!-- You can add multiple videos by adding multiple <Video> tags -->
   <Video>https://www.youtube.com/watch?v=YOUR_YOUTUBE_VIDEO_ID</Video>
 
-  <!-- Donation text and link -->
-  <!-- If DonateText is not specified and DonateLink is then a generic "Donate" text will be displayed -->
-  <DonateText>Support this project</DonateText>
-  <DonateLink>https://github.com/sponsors/YOUR_GITHUB_USERNAME</DonateLink>
-
 </Container>
