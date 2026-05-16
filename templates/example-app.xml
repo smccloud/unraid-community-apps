@@ -4,7 +4,7 @@
   <Repository>ghcr.io/YOUR_GITHUB_USERNAME/example-app:latest</Repository>
   <Registry>https://ghcr.io/YOUR_GITHUB_USERNAME/example-app</Registry>
   <Network>bridge</Network>
-  <MyIP/>
+
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
 
@@ -30,6 +30,12 @@
   <!-- Project page -->
   <Project>https://github.com/YOUR_GITHUB_USERNAME/YOUR_PLUGIN_REPO</Project>
 
+  <!-- Optional GitHub project URL -->
+  <GitHub>https://github.com/YOUR_GITHUB_USERNAME/YOUR_PLUGIN_REPO</GitHub>
+
+  <!-- Raw URL to this exact template file -->
+  <TemplateURL>https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_PLUGIN_REPO/main/templates/example-app.xml</TemplateURL>
+
   <!-- Readme first file -->
   <ReadMe>https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_PLUGIN_REPO/main/README.md</ReadMe>
 
@@ -38,19 +44,31 @@
   
   <!-- Valid category entries can be generated from the Application Categorizer plugin available in Apps -->
   <Category>Tools:System</Category>
+
+  <!-- Optional extra app search terms -->
+  <ExtraSearchTerms>example sample starter</ExtraSearchTerms>
+
+  <!-- Optional system requirements text -->
+  <Requires>Internet access for first run</Requires>
+
+  <!-- Optional changelog text -->
+  <Changes>Initial release</Changes>
+
+  <!-- Optional date (YYYY-MM-DD or YYYY-MM-DD HH:MM:SS) -->
+  <Date>2026-01-01</Date>
   
-  <!-- If this container is beta container, set Beta to true-->
-  <Beta>true</Beta>
+  <!-- Optional: set to true if this is a beta container -->
+  <!-- <Beta>true</Beta> -->
 
   <!-- Minimum and maximum Unraid version.-->
   <MinVer>6.1</MinVer>
   <MaxVer>7.3</MaxVer>
 
-  <!-- If this container is deprecated for all OS versions, set Deprecated to true -->
-  <Deprecated>true</Deprecated>
+  <!-- Optionally set this if this container is deprecated for all OS versions -->
+  <!-- <Deprecated>true</Deprecated> -->
 
-  <!-- If the container is deprecated starting with a specific OS version, set DeprecatedMaxVer to the OS version-->
-  <DeprecatedMaxVer>7.2</DeprecatedMaxVer>
+  <!-- Optional: deprecate starting with a specific OS version -->
+  <!-- <DeprecatedMaxVer>7.2</DeprecatedMaxVer> -->
 
   <!-- License of the container-->
   <License>GPLv2</License>
@@ -59,7 +77,7 @@
   <!-- You can add multiple screenshots by adding multiple <Screenshot> tags -->
   <Screenshot>https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_PLUGIN_REPO/main/screenshot.png</Screenshot>
   
-  <!-- Video.  Youtube URLs are highlyrecommended -->
+  <!-- Video. YouTube URLs are highly recommended -->
   <!-- You can add multiple videos by adding multiple <Video> tags -->
   <Video>https://www.youtube.com/watch?v=YOUR_YOUTUBE_VIDEO_ID</Video>
 
