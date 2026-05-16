@@ -30,9 +30,6 @@
   <!-- Project page -->
   <Project>https://github.com/YOUR_GITHUB_USERNAME/YOUR_PLUGIN_REPO</Project>
 
-  <!-- Optional GitHub project URL -->
-  <GitHub>https://github.com/YOUR_GITHUB_USERNAME/YOUR_PLUGIN_REPO</GitHub>
-
   <!-- Raw URL to this exact template file -->
   <TemplateURL>https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_PLUGIN_REPO/main/templates/example-app.xml</TemplateURL>
 
