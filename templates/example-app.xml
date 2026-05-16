@@ -36,8 +36,16 @@
   <!-- Readme first file -->
   <ReadMe>https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_PLUGIN_REPO/main/README.md</ReadMe>
 
-  <!-- Discord invite code -->
+  <!-- Optional Discord community URL -->
   <Discord>https://discord.gg/YOUR_DISCORD_INVITE_CODE</Discord>
+
+  <!-- Optional Reddit community URL -->
+  <Reddit>https://www.reddit.com/r/YOUR_REDDIT_COMMUNITY</Reddit>
+
+  <!-- Optional Facebook community URL -->
+  <Facebook>https://www.facebook.com/YOUR_FACEBOOK_PAGE</Facebook>
+
+
   
   <!-- Valid category entries can be generated from the Application Categorizer plugin available in Apps -->
   <Category>Tools:System</Category>
