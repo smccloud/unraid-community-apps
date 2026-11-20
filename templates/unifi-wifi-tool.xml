@@ -8,7 +8,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/smccloud/UniFiWifiTool</Support>
+  <Support>https://forums.unraid.net/topic/201352-support-unifi-wifi-access-manager/</Support>
   <Project>https://github.com/smccloud/UniFiWifiTool</Project>
   <Overview>Manage which devices may access UniFi WiFi, including per-client allow and block schedules, with an audit log.</Overview>
   <Category>Network:Other</Category>
