@@ -1,32 +1,39 @@
-# Community Apps Starter Template
+# Unraid Community Applications — smccloud
 
-Use this repository as a GitHub template when you want a clean starting point for a new Community Apps submission repository.
+A repository of Docker container templates maintained by **smccloud** for the [Unraid Community Applications](https://unraid.net) catalog.
 
-## Quick Start
+---
 
-1. Click **Use this template** on GitHub and create your own repository.
-2. Replace the placeholder values in `ca_profile.xml`, `templates/example-app.xml`, and `plugins/example-plugin.xml`.
-3. Replace `icon.svg` with your own repository icon, or update `ca_profile.xml` to point at a hosted icon you control.
-4. Keep one XML file per Docker app under `templates/`.
-5. Keep one XML wrapper per plugin under `plugins/`.
-6. Delete the example files you do not need.
-7. Commit and push your repository.
-8. Run **Validate** and **Scan** in the Community Apps submit flow: `/submit`.
+## 📦 Available Templates
 
-## Starter Files
+| Application | Category | Description | Template |
+| :--- | :--- | :--- | :--- |
+| **UniFi WiFi Access Manager** | `Network` | Application to allow you to allow and block access to your UniFi Wifi network on a schedule. | [`templates/unifi-wifi-tool.xml`](templates/app-name.xml) |
 
-- `README.md`: onboarding notes for whoever maintains the repository.
-- `LICENSE`: starter MIT license text. Replace the placeholder copyright line.
-- `.gitignore`: keeps common OS junk out of the repo.
-- `icon.svg`: starter repository icon referenced by `ca_profile.xml`.
-- `ca_profile.xml`: repository overview and support metadata shown in Community Apps.
-- `templates/example-app.xml`: starter Docker application template.
-- `plugins/example-plugin.xml`: starter plugin wrapper.
+---
 
-## Submission Notes
+## 🚀 Installation
 
-- Keep `ca_profile.xml` in the repository root.
-- Every Docker app entry needs a `<Repository>` tag.
-- Every plugin entry needs a `<PluginURL>` tag.
-- Keep each template's `TemplateURL` pointed at the raw GitHub URL for that exact XML file.
-- Use an OSI-approved license before submitting.
+### Option 1: Via Community Applications (Recommended)
+1. Open your Unraid WebGUI and navigate to the **Apps** tab.
+2. Search for the application name in the Community Applications search bar.
+3. Click **Install**, review your port mappings, volume paths (`/mnt/user/appdata/...`), and environment variables, then click **Apply**.
+
+### Option 2: Manual Template URL
+If an application is not yet indexed in Community Applications, you can load the template directly:
+1. Open your Unraid WebGUI and go to **Docker** > **Add Container**.
+2. Copy the raw GitHub URL of the desired `.xml` file from the [`templates/`](templates/) directory (e.g., `https://githubusercontent.com<app-name>.xml`).
+3. Paste it into the **Template** field or save it locally to `/boot/config/plugins/dockerMan/templates-user/`.
+
+---
+
+## 🛠️ Support & Issues
+
+* **Template & Unraid Configuration Issues:** Please open an [Issue](https://github.com) in this repository or post in the corresponding [Unraid Forums](https://unraid.net) support thread linked inside each template's `<Support>` tag.
+* **Upstream Application Bugs:** For bugs or feature requests unrelated to the Unraid template itself, please report them directly to the upstream project repository.
+
+---
+
+## 📄 License
+
+This repository and its templates are licensed under the [MIT License](LICENSE).
