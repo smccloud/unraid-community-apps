@@ -8,7 +8,7 @@ A repository of Docker container templates maintained by **smccloud** for the [U
 
 | Application | Category | Description | Template |
 | :--- | :--- | :--- | :--- |
-| **UniFi WiFi Access Manager** | `Network` | Application to allow you to allow and block access to your UniFi Wifi network on a schedule. | [`templates/unifi-wifi-tool.xml`](templates/app-name.xml) |
+| **UniFi WiFi Access Manager** | `Network` | Application to allow you to allow and block access to your UniFi Wifi network on a schedule. | [`templates/unifi-wifi-tool.xml`](templates/unifi-wifi-tool.xml) |
 
 ---
 
